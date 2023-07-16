@@ -10,9 +10,11 @@ function Menu() {
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/contactos">Contactos</Nav.Link>
+            <Nav.Link href="/conditional">Conditional</Nav.Link>
+            <Nav.Link href="/forms">Forms</Nav.Link>
+            <Nav.Link href="/render">Renderizado Listas</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
