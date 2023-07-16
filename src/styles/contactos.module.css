@@ -1,0 +1,8 @@
+#centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.importante {
+  color: blue;
+}

@@ -1,9 +1,10 @@
-import Button from "react-bootstrap/Button";
+import Menu from "../components/Menu";
 
 export default function Home() {
   return (
     <>
-    <Button variant="primary">Primary</Button>{' '}
+      <Menu />
+      <h1>Bienvenidos</h1>
     </>
-  )
+  );
 }
